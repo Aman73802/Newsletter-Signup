@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+  font-family: lucida;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: rgb(163 62 61 / 12%) !important;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+.m3 {
+    
+        padding-left: 22px;
+        font-size: 25px;
+        margin-bottom: 1rem !important;
+} 
+.mb-4{
+    margin:0px 97px 0px;
+    height:100px;
+    width:100px;
+    margin-bottom: 0rem !important;
+    
+}
+.top{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+    margin-bottom: -1px;
+   border-radius: 0;
+  }
+
+.bottom{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-floating>.form-control, .form-floating>.form-control-plaintext {
+    padding: 1rem .75rem;
+}
+.needed{
+    margin-top:10px;
+    text-align: center;
+}
+
